@@ -8,6 +8,7 @@ z=1000 # prime iteration we want
 
 while (y < z): 
 
+     # method for making sure we only test odd numbers for prime
      if (num % 2) == 0:
         num=num+1
      else:
